@@ -38,4 +38,18 @@ git branch new - создание ветки "new"
 
 git merge new - слияние с веткой "new". При этом необходимо быть в другой ветке
 
-get branch -d new - удаление ветки "new"
+git branch -d new - удаление ветки "new"
+
+git branch branchname 123456 - добавление коммита (123456) без ветки в новую ветку branchname
+
+git clone https://github.com/IlyaWaffle/Group_555.git - клонирование удаленного репозитория с сайта github.com на устройство
+
+git config --global user.email 'pulinilija@gmail.com' - добавление почты аккаунта vscode для всех проектов в программе
+
+ git config --global user.name 'IlyaMac' - добавление имени аккаунта vscode для всех проектов в программе
+
+ git push - отправление изменений сделанных на устройстве в удаленный репозиторий
+
+ git pull - загрузка изменений сделанных в удаленном репозитории на устройство
+
+ 
